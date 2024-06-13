@@ -69,6 +69,20 @@ nav ul li a:hover::after{
 .header-text h1{
     color: #9c166fee;
 }
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #ff004f;
+}
 /*-------------about------------*/
 #about{
     padding: 0px 0;
@@ -217,7 +231,7 @@ nav ul li a:hover::after{
 .bafin:hover .layer{
     height: 100%;
 }
-.btn{
+.btn.btn2{
     display: block;
     margin: 50px auto;
     width: fit-content;
@@ -228,11 +242,14 @@ nav ul li a:hover::after{
     color: white;
     transition: background 0.5s;
 }
-.btn:hover{
+.btn.btn2:hover{
     background: #ff004f;
 }
-
 /*-------------contact---------*/
+#contact{
+    padding: 0px 0;
+    color: rgb(153, 18, 92);
+}
 .contact-left p{
     margin-top: 30px;
 }
@@ -255,7 +272,7 @@ nav ul li a:hover::after{
     color:rgb(204, 54, 129);
     transform: translateY(-5px);
 }
-.btn.btn2{
+.btn.btn3{
     display: inline-block;
     background: #c5367e;
 }
@@ -265,8 +282,26 @@ nav ul li a:hover::after{
     padding: 25px 0;
     background: #262626;
     font-weight: 300;
-    margin-top: 78px;
+    margin-top: 40px;
     color: white;
 }
+.row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+.contact-left p{
+    flex-basis: 35%;
+}
+.contact-left-2{
+    flex-basis: 60%;
+}
 
-
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+}
+.diri{
+    width: 430px;
+    height: 520px;
+}
